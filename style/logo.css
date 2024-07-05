@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 3rem;
+    height: 98vh;
+}
+.container .pic{
+    width: 60%;
+    padding: 10rem;
+}
+.container .pic .pic1{
+    background: url(../media/black.jpg);
+    width: min-content;
+    background-size: cover;
+    width: 270px;
+    height: 50vh;
+    margin: 0 1.5rem;
+    padding: 0 10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.container .pic .alpha1{
+    font-size: 13rem;
+    background-color: aliceblue;
+    width: 37%;
+    height: 43vh;
+    margin: 0 1.5rem;
+    text-align: center;
+}
+.container .pic .alpha2{
+    font-size: 15rem;
+    background-color: aliceblue;
+    width: 40%;
+    height: 43vh;
+    margin: 0 1.5rem;
+    text-align: center;
+}
+.container .pic .pic2{
+    background: url(../media/white2.jpg);
+    background-size: cover;
+    width: min-content;
+    height: 48vh;
+    width: 250px;
+    margin: 0 1.5rem;
+    margin-top: -2rem;
+}
+.container .pic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.container .box{
+    width: 38%;
+    padding: 20px;
+    height: 93vh;
+    margin-top: 15px;
+}
+.container .box h3{
+    text-transform: capitalize;
+    color: #ffffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin: 15px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.container .box p{
+    color: #ffffffff;
+    font-size: 18px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+}

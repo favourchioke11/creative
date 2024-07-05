@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 45px 25px;
+    margin: 0 30px;
+}
+.nav1{
+    display: flex;padding: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nav1 h1{
+    font-size: 100px;
+}
+.nav1 p{
+    font-size: 35px;
+    text-transform: capitalize;
+    color: brown;
+    font-weight: 900;
+    word-spacing: 5px;
+    
+}
+.nav1 p .tech{
+    font-size: 20px;
+    font-style: italic;
+}
+body .sect1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+body .sect2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-transform: capitalize;
+    width: 100%;
+    margin: 10px 0;
+}
+body .sect3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px 0;
+    text-transform: capitalize;
+}
+.sect3 .box1{
+    width: 1.8%;
+}
+.sect3 .box2{
+    width: 18%;
+}
+.sect3 .box3{
+    width: 7%;
+}
+body .sect4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0;
+    text-transform: capitalize;
+    border-bottom: 1px solid #000000;
+}
+.sect4 .box1{
+    width: 0.1%;
+}
+body .sect6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: #808080;
+    margin: 5px 0;
+    font-size: 13px;
+    border-bottom: 1.8px solid #0584eb;
+}
+body .sect5{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2rem;
+    border-bottom: 1.8px solid #0584eb;
+}
+body .sect7{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #0584eb;
+    border-bottom: 1.8px solid #0584eb;
+    text-transform: uppercase;
+}.sect7 .box1{
+    width: 0.1px;
+}

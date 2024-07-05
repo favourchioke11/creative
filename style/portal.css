@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+@keyframes example{
+    from{background-color: red;}
+    to{background-color: yellow;}
+    from{background-color: yellow;}
+    to{background-color: blue;} 
+}

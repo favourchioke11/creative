@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table, tr, td{
+    border: 1px solid #6d6b6b0e;
+    border-collapse: collapse;
+    width: 33cm;
+    height: 180px;
+    text-size-adjust: 2pc;
+    color: red;
+}
+
+td:nth-child(3){
+    background: red;
+}
+tr:nth-child(3){
+    background: red;
+}
